@@ -1,3 +1,4 @@
+!pip install mlflow
 import pandas as pd
 import mlflow
 import pickle
