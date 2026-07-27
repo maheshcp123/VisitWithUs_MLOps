@@ -1,6 +1,7 @@
 import pandas as pd
 import mlflow
 import pickle
+import os  # Add this line
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import accuracy_score
