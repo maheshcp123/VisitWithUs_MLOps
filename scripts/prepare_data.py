@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 def prepare():
     df = pd.read_csv('data/tourism_dataset.csv')
     
-    # Cleaning: Basic imputation
+    # Cleaning: Basic  imputation
     df['Age'] = df['Age'].fillna(df['Age'].median())
     df['MonthlyIncome'] = df['MonthlyIncome'].fillna(df['MonthlyIncome'].median())
     
